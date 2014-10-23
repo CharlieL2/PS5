@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textInvestment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Investment Amount"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/editInvestment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textYears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Years"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Spinner
+        android:id="@+id/SpinnerYears"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textAnnual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Annual Interest"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/editAnnual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textFuture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Future Value"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/editFuture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/pika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pika!"/>
+
+</LinearLayout>
